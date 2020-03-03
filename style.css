@@ -1,0 +1,14 @@
+
+.expandable > h2 {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.expandable > h2:hover {
+    background-color: grey;
+    color: white;
+}
+
+.expandable > .expandable-content {
+    display: none;
+}
