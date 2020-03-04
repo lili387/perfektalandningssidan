@@ -1,0 +1,107 @@
+[data-theme="dark"] {
+  background-color: #111 !important;
+  color: #eee;
+}
+
+[data-theme="dark"] .bg-light {
+  background-color: #333 !important;
+}
+
+[data-theme="dark"] .bg-white {
+  background-color: #000 !important;
+}
+
+[data-theme="dark"] .bg-black {
+  background-color: #eee !important;
+}
+
+[data-theme="dark"] .container {
+  color: #000 !important;
+}
+
+[data-theme="dark"] .card.mb-4.mb-4.shadow-sm {
+  background-color: #333 !important;
+  color: white !important;
+}
+
+[data-theme="dark"] label {
+  color: white;
+}
+
+.card.mb-4.mb-4.shadow-sm {
+
+}
+
+.switch {
+  display: inline-block;
+  height: 34px;
+  position: relative;
+  width: 60px;
+}
+
+.switch input {
+  display:none;
+}
+
+.slider {
+  background-color: #ccc;
+  bottom: 0;
+  cursor: pointer;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: .4s;
+}
+
+.slider:before {
+  background-color: #fff;
+  bottom: 4px;
+  content: "";
+  height: 26px;
+  left: 4px;
+  position: absolute;
+  transition: .4s;
+  width: 26px;
+}
+
+input:checked + .slider {
+  background-color: #66aa6b;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+#dark-light-switch {
+  color: black;
+  height: 35px;
+  width: auto;
+}
+
+[data-theme="dark"] #dark-light-switch {
+  color: white;
+}
+
+#toggle {
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin-top: 5px;
+  margin-right: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+[data-theme="dark"] #toggle {
+}
